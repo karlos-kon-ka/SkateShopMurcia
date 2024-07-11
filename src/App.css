@@ -1,0 +1,130 @@
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 15px;
+    background: linear-gradient(rgb(209, 206, 206), rgb(110, 110, 189));
+    border-radius: 8px;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 6px;
+  }
+  
+  .product-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    margin-bottom: 5px;
+  }
+  
+  .product-card span {
+    font-weight: bold;
+  }
+
+/*bones de filtro*/
+
+.categorias button{
+  background-color: #b8eef1;
+  margin: 10px;
+  color: rgb(53, 52, 52);
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: scale .6s ;
+  }
+
+.categorias button:hover{
+  scale: 1.2;
+  background-color: rgb(240, 240, 191);
+}
+
+.categorias{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(219, 174, 102);
+  
+  margin: 5px;
+  padding: 8px;
+  
+  border-radius: 6px;
+}
+
+
+
+section{
+  margin: 20px;
+}
+
+@media only screen and (max-width: 700px){
+  
+  .categorias {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Por defecto, 4 columnas */
+    gap: 10px; /* Espacio entre elementos */
+}
+
+}
+
+/* Media query para pantallas con un ancho máximo de 700 píxeles */
+@media only screen and (max-width: 700px) {
+    .categorias {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    }
+
+
+}
+  
+
+@media only screen and (max-width: 700px){
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 0px;
+    color: antiquewhite;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    margin: 15px;
+    background-color: rgb(148, 148, 209);
+    border-radius: 8px;
+}
+
+.product-card img {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen al contenedor */
+    height: auto;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.product-card h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    margin-bottom: 5px;
+}
+
+.product-card span {
+    font-weight: bold;
+}
+  
+}

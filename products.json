@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Skateboard Pro",
+    "price": 59.99,
+    "brand": "Sk8Mafia",
+    "description": "High-quality skateboard for professionals.",
+    "image": "./src/assets/imgs/skate.jpg",
+    "size": "8.0"
+  },
+  {
+    "id": 2,
+    "name": "Element Skateboard",
+    "price": 49.99,
+    "brand": "Element",
+    "description": "Durable and reliable skateboard for beginners.",
+    "image": "./src/assets/imgs/element.jpg",
+    "size": "8.25"
+  },
+  {
+    "id": 3,
+    "name": "Girl Skateboard",
+    "price": 69.99,
+    "brand": "Girl",
+    "description": "Stylish skateboard for advanced skaters.",
+    "image": "./src/assets/imgs/girl.jpg",
+    "size": "8.0"
+  },
+  {
+    "id": 4,
+    "name": "Habitat Skateboard",
+    "price": 55.99,
+    "brand": "Habitat",
+    "description": "Eco-friendly skateboard made from sustainable materials.",
+    "image": "./src/assets/imgs/habitat.jpg",
+    "size": "8.125"
+  },
+  {
+    "id": 5,
+    "name": "Santa Cruz Skateboard",
+    "price": 75.99,
+    "brand": "Santa Cruz",
+    "description": "High-performance skateboard for experts.",
+    "image": "./src/assets/imgs/santa.jpg",
+    "size": "8.5"
+  },
+  {
+    "id": 6,
+    "name": "Santa Cruz Skateboard",
+    "price": 65.99,
+    "brand": "Santa Cruz",
+    "description": "Classic skateboard with iconic design.",
+    "image": "./src/assets/imgs/ssanta.jpg",
+    "size": "8.375"
+  },
+  {
+    "id": 7,
+    "name": "Zero Skateboard",
+    "price": 72.99,
+    "brand": "Zero",
+    "description": "Skateboard for those who push the limits.",
+    "image": "./src/assets/imgs/zero.jpg",
+    "size": "8.0"
+  },
+  {
+    "id": 8,
+    "name": "Almost Skateboard",
+    "price": 60.99,
+    "brand": "Almost",
+    "description": "Lightweight skateboard for agility and tricks.",
+    "image": "./src/assets/imgs/almost.jpg",
+    "size": "8.125"
+  },
+  {
+    "id": 9,
+    "name": "Chocolate Skateboard",
+    "price": 68.99,
+    "brand": "Chocolate",
+    "description": "Smooth and responsive skateboard for all levels.",
+    "image": "./src/assets/imgs/chocola.jpg",
+    "size": "8.25"
+  },
+  {
+    "id": 10,
+    "name": "Baker Skateboard",
+    "price": 74.99,
+    "brand": "Baker",
+    "description": "Strong and durable skateboard for heavy use.",
+    "image": "./src/assets/imgs/baker.png",  
+    "size": "8.375"
+  },
+  {
+    "id": 11,
+    "name": "Plan B Skateboard",
+    "price": 70.99,
+    "brand": "Plan B",
+    "description": "Premium skateboard with top-notch performance.",
+    "image": "./src/assets/imgs/planb.jpg",
+    "size": "8.5"
+  },
+  {
+    "id": 12,
+    "name": "Plan B",
+    "price": 66.99,
+    "brand": "Plan B",
+    "description": "Unique design and great build quality.",
+    "image": "./src/assets/imgs/plan2.jpg",
+    "size": "8.0"
+  }
+]
