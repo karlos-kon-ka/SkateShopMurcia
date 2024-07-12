@@ -51,6 +51,25 @@
   scale: 1.2;
   background-color: rgb(240, 240, 191);
 }
+nav{
+  background-color: #ccc;
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  text-align: center;
+  gap: 30px;
+}
+nav a{
+  text-decoration: none;
+  cursor: pointer;
+}
 
 .categorias{
   display: flex;

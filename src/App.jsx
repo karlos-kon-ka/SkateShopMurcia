@@ -7,6 +7,8 @@ import Botones from './components/Botones';
 
 import Footer from './components/Footer';
 import Scene2 from './components/Scene2';
+import { Router } from 'react-router-dom';
+import NavBar from './components/NavBar';
 
 
 
@@ -27,6 +29,9 @@ const App = () => {
 
   return (
     <div className="App">
+      
+        <NavBar />
+      
       
       <Scene />
       <Botones categorias={categorias} filterCategori={filterCategori} />

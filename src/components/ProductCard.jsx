@@ -22,9 +22,9 @@ function ProductCard({ products }) {
             <img className='foto_tabla' src={product.image} alt={product.name} />
             <h2>{product.name}</h2>
             <p>{product.description}</p>
-            <p>Precio: <span>${product.price}</span></p>
-            <p>Marca: {product.brand}</p>
-            <p>Medida: {product.size}</p>
+            <p> Marca: {product.brand}</p>
+            <p> Medida: {product.size}</p>
+            <h4>Precio: ${product.price}</h4>
             <button id='añadir'>Añadir</button>
           </motion.div>
         ))}
