@@ -56,12 +56,25 @@
   display: flex;
   text-align: center;
   justify-content: center;
-  background-color: rgb(219, 174, 102);
+  background-color: rgb(102, 211, 219);
+  box-shadow: 1px 1px 10px white;
   
   margin: 5px;
   padding: 8px;
   
   border-radius: 6px;
+}
+#añadir{
+  padding: 10px;
+  border-radius: 4px;
+  background-color: rgb(211, 219, 226);
+  color: #68a8fc;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.soy{
+  border-radius: 8px;
 }
 
 
@@ -69,6 +82,12 @@
 section{
   margin: 20px;
 }
+
+
+
+
+
+
 
 @media only screen and (max-width: 700px){
   

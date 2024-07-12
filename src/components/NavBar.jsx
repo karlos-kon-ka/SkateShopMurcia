@@ -1,8 +1,12 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography, Box, Button } from '@mui/material';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'; // Importar el icono de carrito
+import { Link } from 'react-router-dom';
 
-function MyApp() {
+const scrollToSection = (id) => {
+  document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+};
+
+function NavBar() {
   return (
     <AppBar position="static">
       <Toolbar>
@@ -10,16 +14,14 @@ function MyApp() {
           My App
         </Typography>
         <Box sx={{ display: 'flex', gap: 2 }}>
-          <Button color="inherit">Tienda</Button>
-          <Button color="inherit">Sobre</Button>
-          <Button color="inherit">Contácto</Button>
-          <Button color="inherit">
-            <ShoppingCartIcon /> {/* Icono de carrito */}
-          </Button>
+          <Link color="inherit" onClick={() => scrollToSection('scene')}>Tienda</Link>
+          <Link color="inherit" onClick={() => scrollToSection('products')}>Sobre</Link>
+          <Link color="inherit" onClick={() => scrollToSection('contacto')}>Contacto</Link>
+          
         </Box>
       </Toolbar>
     </AppBar>
   );
 }
 
-export default MyApp;
+export default NavBar;

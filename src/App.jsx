@@ -4,9 +4,10 @@ import ProductCard from './components/ProductCard';
 import Data from '../products.json';
 import { useState } from 'react';
 import Botones from './components/Botones';
-import NavBar from './components/NavBar';
+
 import Footer from './components/Footer';
 import Scene2 from './components/Scene2';
+
 
 
 const App = () => {
@@ -26,13 +27,19 @@ const App = () => {
 
   return (
     <div className="App">
-      <NavBar />
+      
       <Scene />
       <Botones categorias={categorias} filterCategori={filterCategori} />
       <ProductCard products={article} />
-      <Scene2 />
-      <Footer />
+      <Scene2 id='contacto' />
+      <Footer id='contacto' />
+        
+      
+      
+      
+      
     </div>
+    
   );
 };
 

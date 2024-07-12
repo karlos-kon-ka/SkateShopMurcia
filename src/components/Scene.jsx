@@ -5,7 +5,7 @@ import { OrbitControls } from '@react-three/drei'
 
 function Scene() {
   return (
-    <Canvas  camera={{ position: [0, 0, 85], fov:60}}>
+    <Canvas className='tabla'  camera={{ position: [0, 0, 85], fov:60}}>
         <ambientLight intensity={5} />
        
         
@@ -15,6 +15,7 @@ function Scene() {
         
         <OrbitControls 
         enableZoom={false}
+        
             
            
         />

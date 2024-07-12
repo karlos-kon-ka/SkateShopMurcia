@@ -1,31 +1,38 @@
-canvas{
-    height: 70vh;
-    width: 100%;
-    background: rgb(203,255,75);
-background: radial-gradient(circle, rgba(203,255,75,1) 0%, rgba(59,252,41,1) 45%, rgba(111,232,176,1) 76%, rgba(153,250,213,1) 96%);
+html, body {
     
-    border-radius: 8px;
-   
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif;
+    background: linear-gradient(13deg, rgba(153,227,251,1) 23%, rgba(202,181,208,1) 40%, rgba(145,181,165,1) 61%, rgba(52,144,109,1) 91%);
+    display: flex;
+    flex-direction: column;
 }
-.foto_tabla{
+
+canvas {
+    height: 60vh;
+    width: 100%;
+    background: radial-gradient(circle, rgb(215, 247, 134) 0%, rgba(59,252,41,1) 45%, rgba(111,232,176,1) 76%, rgba(153,250,213,1) 96%);
+    border-radius: 8px;
+}
+
+.foto_tabla {
     width: 100%;
     height: 100%;
     max-width: 350px;
     max-height: 350px;
 }
-body, html{
-    margin: 0;
-    padding: 0;
-    font-family: "Manrope", sans-serif;
-    background: rgb(153,227,251);
-background: linear-gradient(13deg, rgba(153,227,251,1) 23%, rgba(202,181,208,1) 40%, rgba(145,181,165,1) 61%, rgba(52,144,109,1) 91%);
 
-}
-
-
-h3{
+h3 {
     text-align: center;
 }
-*{
-    text-decoration: none; 
+
+* {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 16px;
+    text-align: center;
+    margin-top: auto;
 }

@@ -25,7 +25,7 @@ function ProductCard({ products }) {
             <p>Precio: <span>${product.price}</span></p>
             <p>Marca: {product.brand}</p>
             <p>Medida: {product.size}</p>
-            <button>Añadir</button>
+            <button id='añadir'>Añadir</button>
           </motion.div>
         ))}
       </div>
