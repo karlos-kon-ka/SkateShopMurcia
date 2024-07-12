@@ -5,7 +5,7 @@ function NavBar() {
     <nav>
       <ul>
         <li><a>Tablas</a></li>
-        <li>Contacto</li>
+        <li><a>Contacto</a></li>
         
       </ul>
       
