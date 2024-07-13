@@ -35,7 +35,7 @@ function Scene2() {
       <Canvas className='banco_fondo' camera={{ position: [0, 0, 10], fov: 60 }} style={{ flex: 1, width: '100%' }}>
         <ambientLight intensity={5} />
         <Suspense fallback={null}>
-          <BancoModelo position={[0, -5, -5]} rotation={[0, Math.PI / 2, 0]} scale={[1.5, 1.5, 1.5]} />
+          <BancoModelo position={[0, -5, -5]} rotation={[0, Math.PI / 2, 0]} scale={[3, 3, 3]} />
         </Suspense>
         
       </Canvas>

@@ -1,7 +1,13 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useEffect, useState } from 'react';import { motion } from 'framer-motion';
 
 function ProductCard({ products }) {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    fetch('/data.json')
+      .then(response => response.json())
+      .then(data => setData(data));
+  }, []);
   const animationVariants = {
     hidden: { opacity: 0, y: -50 },
     visible: { opacity: 1, y: 0 }
